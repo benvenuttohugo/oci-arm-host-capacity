@@ -1,11 +1,11 @@
- name: OCI ARM Instance Creator
+name: OCI ARM Instance Creator
 
-  on:
+on:
     schedule:
       - cron: '*/5 * * * *'
     workflow_dispatch:
 
-  jobs:
+jobs:
     create:
       runs-on: ubuntu-latest
       steps:
